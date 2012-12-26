@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fireStage</key>
+	<dict>
+		<key>name</key>
+		<string>Trial of Fire</string>
+		<key>levels</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>L1</string>
+				<key>highScore</key>
+				<integer>950</integer>
+				<key>fileName</key>
+				<string>stage1_level1</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>L2</string>
+				<key>highScore</key>
+				<integer>1000</integer>
+				<key>fileName</key>
+				<string>stage1_level2</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>L3</string>
+				<key>highScore</key>
+				<integer>100</integer>
+				<key>fileName</key>
+				<string>stage1_level3</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>L4</string>
+				<key>highScore</key>
+				<integer>100</integer>
+				<key>fileName</key>
+				<string>stage1_level4</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>combos</key>
+	<dict>
+		<key>20</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>type</key>
+			<integer>6</integer>
+			<key>checkString</key>
+			<string>iceTower</string>
+		</dict>
+		<key>9</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>type</key>
+			<integer>9</integer>
+			<key>checkString</key>
+			<string>jadeTower</string>
+		</dict>
+		<key>3</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>type</key>
+			<integer>8</integer>
+			<key>checkString</key>
+			<string>magmaTower</string>
+		</dict>
+		<key>10</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>type</key>
+			<integer>7</integer>
+			<key>checkString</key>
+			<string>windTower</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

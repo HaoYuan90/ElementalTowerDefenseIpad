@@ -1,0 +1,32 @@
+//
+// Prefix header for all source files of the 'ElementalTowerDefense' target in the 'ElementalTowerDefense' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "Constants.h"
+#endif
+
+#define DEBUG_LOG
+#ifdef DEBUG_LOG
+#define _log(__FORMAT__, ...); NSLog((@"~~~~~ %s [Line %d] ~~~~~"), __PRETTY_FUNCTION__, __LINE__);NSLog(__FORMAT__, ##__VA_ARGS__);
+//#define _log(__FORMAT__, ...); NSLog(@"%s [Line %d] %@", __PRETTY_FUNCTION__, __LINE__, [NSString stringWithFormat:(__FORMAT__), ##__VA_ARGS__]);
+//#define _log(__FORMAT__, ...); NSLog(__FORMAT__, ##__VA_ARGS__);
+//#define _log(__FORMAT__, ...); NSLog([NSString stringWithFormat:@"%@ %@",([NSString stringWithFormat:@"%s [Line %d]", __PRETTY_FUNCTION__, __LINE__]),([NSString stringWithFormat:(__FORMAT__), ##__VA_ARGS__])]);
+#else
+#define _log(__FORMAT__, ...); NSLog(@"");
+#endif
+
+#ifdef DEBUG
+#   define DLog(__FORMAT__, ...); NSLog((@"%s [Line %d] " __FORMAT__), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+//#   define DLog(...) do {} while (0)
+#else
+#   define DLog(...) do {} while (0)
+#endif

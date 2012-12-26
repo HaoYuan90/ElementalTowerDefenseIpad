@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mapName</key>
+	<string>stage1_level2.PNG</string>
+	<key>numRows</key>
+	<integer>15</integer>
+	<key>numColumns</key>
+	<integer>10</integer>
+	<key>credit</key>
+	<integer>500</integer>
+	<key>width</key>
+	<integer>1024</integer>
+	<key>height</key>
+	<integer>1536</integer>
+	<key>wayPoints</key>
+	<array>
+		<integer>5</integer>
+		<integer>35</integer>
+		<integer>37</integer>
+		<integer>57</integer>
+		<integer>53</integer>
+		<integer>73</integer>
+		<integer>77</integer>
+		<integer>97</integer>
+		<integer>95</integer>
+		<integer>145</integer>
+	</array>
+	<key>obstacles</key>
+	<array>
+		<integer>5</integer>
+		<integer>15</integer>
+		<integer>25</integer>
+		<integer>35</integer>
+		<integer>97</integer>
+		<integer>96</integer>
+		<integer>95</integer>
+		<integer>105</integer>
+		<integer>115</integer>
+		<integer>125</integer>
+		<integer>145</integer>
+		<integer>135</integer>
+		<integer>36</integer>
+		<integer>37</integer>
+		<integer>47</integer>
+		<integer>57</integer>
+		<integer>56</integer>
+		<integer>55</integer>
+		<integer>54</integer>
+		<integer>53</integer>
+		<integer>63</integer>
+		<integer>73</integer>
+		<integer>74</integer>
+		<integer>75</integer>
+		<integer>76</integer>
+		<integer>77</integer>
+		<integer>87</integer>
+	</array>
+	<key>creepWaveFileName</key>
+	<string>stage1_level2_waves</string>
+	<key>numRows</key>
+	<integer>15</integer>
+	<key>levelLock</key>
+	<integer>3</integer>
+</dict>
+</plist>
